@@ -1,0 +1,120 @@
+.log {
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+body{
+    background: url('../img/sfondo.jpg') no-repeat center fixed;     
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+.Titolo {
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    margin-top: 10%;
+    text-align: center; 
+}
+
+.log input[type="date"]{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.0rem;
+    
+}
+
+.log input[type=text],
+.log input[type=password] {
+    background-color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #b5acac;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.log .btn {
+    /* center all elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.log .btn-submit {
+    background-color: rgb(89, 62, 29);
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    transition: background-color 0.2s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.log .btn-submit:hover {
+    background-color: rgb(100, 73, 60);
+}
+
+.Link-register:link {
+    text-decoration: none;
+    color: blue;
+}
+
+.Link-register:visited {
+    text-decoration: none;
+    color: rgb(52, 161, 191)
+}
+
+.Link-register:hover {
+    text-decoration: underline;
+}
+
+.Link-register:active {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.created-by {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        float: none;
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
